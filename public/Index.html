@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>INDEX.html Hors-connexion</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f5f5f5;
+        color: #333;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        margin-bottom: 1.5rem;
+        color: #666;
+      }
+
+      a {
+        display: inline-block;
+        padding: 0.6rem 1.2rem;
+        background: #1976d2;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+        font-weight: bold;
+      }
+
+      a:hover {
+        background: #155a9c;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>INDEX.html Vous êtes hors-ligne</h1>
+    <p>Le contenu ne peut pas être chargé pour l’instant.</p>
+    <a href="/" onclick="event.preventDefault(); window.location.href='/'">
+      Retour à l’accueil
+    </a>
+  </body>
+
+</html>
